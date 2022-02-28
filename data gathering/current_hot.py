@@ -14,12 +14,12 @@ reddit = praw.Reddit(client_id='biHuZNftcyXJNw',
 
 subreddit = reddit.subreddit('india')
 
-topics_dict = { "title":[],
-                "body":[],
-                "score":[],
-                "flair":[],
-                "flair_id":[], 
-                "num_comments":[]}
+topics_dict = {"title": [],
+               "body": [],
+               "score": [],
+               "flair": [],
+               "flair_id": [],
+               "num_comments": []}
 
 
 for submission in subreddit.hot(limit=1000):
