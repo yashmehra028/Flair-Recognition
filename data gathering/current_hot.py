@@ -1,10 +1,5 @@
 import praw
 import pandas as pd
-import datetime as dt
-import numpy as np
-import matplotlib
-# matplotlib.rcParams['font.family'] = 'serif'
-import matplotlib.pyplot as plt
 
 reddit = praw.Reddit(client_id='biHuZNftcyXJNw',
                      client_secret='NBRuoUNvSSuRp60IqlKZon7l474',
